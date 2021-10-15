@@ -10,4 +10,6 @@ import lombok.EqualsAndHashCode;
 @Data
 public class ActivityModel extends CoreModel {
     ActivityType activityType;
+    ActivityType previousActivity;
+    Object pushModel;
 }
