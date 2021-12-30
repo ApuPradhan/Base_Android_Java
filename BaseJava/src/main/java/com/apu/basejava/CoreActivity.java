@@ -1,6 +1,7 @@
 package com.apu.basejava;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,6 +15,7 @@ abstract public class CoreActivity extends AppCompatActivity implements com.apu.
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        Toast.makeText(this, "Apu", Toast.LENGTH_SHORT).show();
     }
 
     protected CoreActivity getThis() {
