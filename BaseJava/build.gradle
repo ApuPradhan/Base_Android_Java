@@ -24,8 +24,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 }
 
@@ -39,11 +39,11 @@ dependencies {
 
     //Api
     implementation 'com.android.volley:volley:1.2.1'
-    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.google.code.gson:gson:2.8.8'
 
     //Lombok
-    compileOnly 'org.projectlombok:lombok:1.18.18'
-    annotationProcessor 'org.projectlombok:lombok:1.18.18'
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
 }
 
 afterEvaluate {
@@ -57,7 +57,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.apu'
                 artifactId = 'basejava'
-                version = '1.0'
+                version = '1.0.0'
             }
         }
     }
