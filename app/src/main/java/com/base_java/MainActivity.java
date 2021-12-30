@@ -3,9 +3,9 @@ package com.base_java;
 import android.os.Bundle;
 
 import com.apu.basejava.Supportive.CustomToolBar.ToolbarType;
-import com.base_java.Core.BaseActivity;
-import com.base_java.Core.Enum.ActivityType;
-import com.base_java.Core.Model.ActivityModel;
+import com.base_java.Base.BaseActivity;
+import com.base_java.Base.Enum.ActivityType;
+import com.base_java.Base.Model.ActivityModel;
 
 public class MainActivity extends BaseActivity {
 

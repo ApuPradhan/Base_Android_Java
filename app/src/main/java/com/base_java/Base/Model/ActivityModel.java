@@ -1,7 +1,7 @@
-package com.base_java.Core.Model;
+package com.base_java.Base.Model;
 
 import com.apu.basejava.Model.CoreModel;
-import com.base_java.Core.Enum.ActivityType;
+import com.base_java.Base.Enum.ActivityType;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

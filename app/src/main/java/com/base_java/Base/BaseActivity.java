@@ -1,4 +1,4 @@
-package com.base_java.Core;
+package com.base_java.Base;
 
 import android.os.Bundle;
 
@@ -6,10 +6,8 @@ import androidx.annotation.Nullable;
 
 import com.apu.basejava.CoreActivity;
 import com.apu.basejava.Helper.CoreActivityHelper;
-import com.apu.basejava.Model.CoreModel;
-import com.apu.basejava.Supportive.CustomToolBar.ToolBarModel;
-import com.base_java.Core.Enum.ActivityType;
-import com.base_java.Core.Model.ActivityModel;
+import com.base_java.Base.Enum.ActivityType;
+import com.base_java.Base.Model.ActivityModel;
 
 public abstract class BaseActivity extends CoreActivity {
 

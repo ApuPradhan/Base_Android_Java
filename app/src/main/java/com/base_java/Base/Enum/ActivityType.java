@@ -1,4 +1,4 @@
-package com.base_java.Core.Enum;
+package com.base_java.Base.Enum;
 
 public enum ActivityType {
     Main,

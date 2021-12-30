@@ -3,6 +3,7 @@ package com.apu.basejava;
 import android.app.Activity;
 import android.content.Context;
 import android.content.ContextWrapper;
+import android.provider.Settings;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -29,6 +30,10 @@ public class CoreHelper {
         } else {
             return getAppCompatActivityActivity((Activity) activity.getBaseContext());
         }
+    }
+
+    public static String getANDROID_ID(Context ctx) {
+        return Settings.Secure.getString(ctx.getContentResolver(), Settings.Secure.ANDROID_ID);
     }
 
 }

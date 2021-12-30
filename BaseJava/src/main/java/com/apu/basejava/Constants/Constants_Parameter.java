@@ -7,4 +7,5 @@ public interface Constants_Parameter {
     obj - Object
     */
 
+    String OBJ_ActivityModel = "ActivityModel";
 }
