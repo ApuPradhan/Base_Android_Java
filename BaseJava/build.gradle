@@ -3,6 +3,16 @@ plugins {
     id 'maven-publish'
 }
 
+repositories {
+    mavenCentral()
+    google()
+    jcenter()
+    maven { url "https://jitpack.io" }
+}
+
+group = 'com.github.jitpack'
+version = '1.0.7'
+
 android {
     compileSdkVersion 31
     buildToolsVersion "30.0.3"
@@ -11,7 +21,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 6
-        versionName "1.0.6"
+        versionName "1.0.7"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
